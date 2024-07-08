@@ -1,0 +1,23 @@
+steps to Develop and Execute the Project "Face Detection in a Video using Big Data tools and Computer Vision Techniques"
+
+Step 1: Open Google Colab
+Step 2 : Create a Notebook
+Step 3: Change the runtime to GPU
+Step 4: Connect by clicking the connect button
+Step 5: Download the Dataset from roboflow by using the following code
+      !pip install roboflow --quiet
+      from roboflow import Roboflow
+      rf = Roboflow(api_key="Vl5nUUAKOyul9My9ODQI")
+      project = rf.workspace("mohamed-traore-2ekkp").project("face-detection-mik1i")
+      dataset = project.version(18).download("yolov8")
+Step 6: Install the Below libraries in Google Colab using " pip Install <<name>>" command
+	1. ultralytics
+	2. pyspark
+        3. findspark
+        4. deepface
+        5. apachespark
+Step 7: Upload the image and video
+Step 8: run each cell by clicking run button
+
+
+
